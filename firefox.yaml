@@ -1,32 +1,20 @@
-# Created with YamlCreate.ps1 v2.0.6 $debug=AUSU.7-2-1
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.1.0.schema.json
-
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.locale.1.1.0.schema.json
 PackageIdentifier: Mozilla.Firefox
-PackageVersion: latest
-Platform:
-- Windows.Desktop
-MinimumOSVersion: 10.0.17763.0
-InstallModes:
-- silentWithProgress
-UpgradeBehavior: install
-Commands:
-- firefox
-Protocols:
-- http
-- https
-FileExtensions:
-- htm
-- html
-- url
-ReleaseDate: 2022-12-5
-Installers:
-- InstallerLocale: fi
-  Architecture: x64
-  InstallerType: exe
-  Scope: machine
-  InstallerUrl: https://download.mozilla.org/?product=firefox-latest&os=win64&lang=fi
-  InstallerSwitches:
-    Silent: /S
-    SilentWithProgress: /S
-ManifestType: installer
+PackageVersion: 107.0.1
+PackageLocale: fi
+Publisher: Mozilla
+PublisherUrl: https://www.mozilla.org/fi
+PublisherSupportUrl: https://support.mozilla.org/fi
+PrivacyUrl: https://www.mozilla.org/de/privacy/websites
+Author: Mozilla Foundation
+PackageName: Mozilla Firefox
+PackageUrl: https://www.mozilla.org/de/firefox/
+License: Mozilla Public License Version 2.0
+LicenseUrl: https://www.mozilla.org/en-US/MPL/2.0
+CopyrightUrl: https://www.mozilla.org/en-US/foundation/trademarks/policy
+ShortDescription: Firefox
+Description: Firefox
+Tags:
+- webbrowser
+ManifestType: locale
 ManifestVersion: 1.1.0
